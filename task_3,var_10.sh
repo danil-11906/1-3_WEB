@@ -6,9 +6,6 @@ last_numbers=()
 is_playing=true
 check='^[0-9]+$'
 
-
-echo  "Welcome to a great game.."
-
 while [ "$is_playing" = "true" ]; do
     (( random_number = RANDOM % 10 + 100 ))
     echo "Step: $step"
